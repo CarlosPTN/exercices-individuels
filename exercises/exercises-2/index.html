@@ -3,9 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>2nd exercise</title>
   </head>
   <body>
+    <header>
+      <h1>Guess My Number!</h1>
+      <p class="between">(Between 0 and 50)</p>
+      <button class="btn again">Again!</button>
+      <div class="number">?</div>
+      <button class="btn guess">Press to generate number</button>
+    </header>
+
+    <div>
+      <main>
+      <label for="name" class="window">Guess number: </label>
+      <input
+        class=" window"
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+      />
+    <p>  <button class="number btn verify"> Press to verify</button></p>
+    </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
